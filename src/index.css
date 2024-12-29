@@ -1,0 +1,81 @@
+:root{
+    background-color: rgb(22, 22, 22);
+    color: rgb(214, 214, 214);
+}
+
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+h1{
+    font-size: 4rem;
+    
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(214, 214, 214);
+    background-color: rgb(48, 48, 48);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+.add-button{
+    margin: 10px;
+}
+
+.delete-button, .move-button{
+    padding: 8px 12px;
+    margin-left: 10px;
+}
+
+button:hover{
+    background-color: rgb(32, 32, 32);
+    
+}
+.add-button:hover{
+    border-color: #64ff86;
+    box-shadow: 0px 0px 5px #64ff86;
+}
+.delete-button:hover{
+    border-color: #ee3030;
+    box-shadow: 0px 0px 5px #ee3030;
+}
+.move-button:hover{
+    border-color: #3073ee;
+    box-shadow: 0px 0px 5px #3073ee;
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 1px solid #3073ee;
+    box-shadow: 0px 0px 5px #3073ee;
+    background-color: rgb(48, 48, 48);
+    color: rgb(214, 214, 214);
+    border-radius: 5px;
+}
+
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(28, 30, 32);;
+    margin-bottom: 10px;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
