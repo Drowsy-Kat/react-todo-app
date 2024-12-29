@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function ToDoList(){
 
-    const [tasks, setTasks] = useState(["take shower", "go outside"]);         // array for storing tasks
+    const [tasks, setTasks] = useState([]);         // array for storing tasks
     const [newTask, setNewTask] = useState("")      // stores task to be input into the array
 
     function handleInputChange(e){      // handles editing text of the input box
